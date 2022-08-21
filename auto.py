@@ -20,7 +20,7 @@ def enviar_email(cotacao):
     msg['Subject'] = 'Dolar está hoje abaixo de R$ 5.20'
     msg['From'] = 'litzafontana27@gmail.com'
     msg['To'] = 'litzafontana@hotmail.com'
-    password = 'wjmkczedprgxlgrt'
+    password = 'xxx' #chave google
     msg.add_header ('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
 
